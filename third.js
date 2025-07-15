@@ -1,0 +1,13 @@
+function isLeapYear(year) {
+    if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+  
+  // Example usage:
+  console.log(isLeapYear(2024)); // Output: true (divisible by 4, not by 100)
+  console.log(isLeapYear(1900)); // Output: false (divisible by 100, not by 400)
+  console.log(isLeapYear(2000)); // Output: true (divisible by 400)
+  console.log(isLeapYear(2023)); // Output: false (not divisible by 4)
