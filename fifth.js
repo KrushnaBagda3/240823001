@@ -1,3 +1,9 @@
+// 5. Factorial of a Number
+// Definition: Calculate factorial of a number.
+// Input: 4
+// Output: 24
+
+
 function factorialIterative(n) {
     if (n < 0) {
       return "Factorial is not defined for negative numbers.";

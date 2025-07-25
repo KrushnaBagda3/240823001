@@ -1,3 +1,9 @@
+// 4. Sum of Natural Numbers
+// Definition: Calculate the sum of the first n natural numbers.
+// Input: 5
+// Output: 15
+
+
 function sum_of_natural_numbers(n) {
     return (n * (n + 1)) / 2;
   }
