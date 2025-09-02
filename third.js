@@ -6,9 +6,9 @@
 
 function isLeapYear(year) {
     if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
-      return true;
+      return "this is leap year";
     } else {
-      return false;
+      return "this is not leap year";
     }
   }
   
